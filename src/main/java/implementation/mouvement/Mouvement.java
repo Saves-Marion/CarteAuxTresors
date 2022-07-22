@@ -193,6 +193,7 @@ public class Mouvement {
                 System.out.println("He has found a treasure !");
                 treasure.setNumberTreasure(treasure.getNumberTreasure() - 1);
                 adventurer.setNumberTreasure(adventurer.getNumberTreasure() + 1);
+                break;
             }
         }
     }
